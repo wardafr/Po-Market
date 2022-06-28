@@ -6,7 +6,7 @@ const connectDB = async () => {
   try {
     const uri =
       process.env.MONGO_URI ||
-      "mongodb+srv://vibess:FpqobGBgE7Dn7Gkb@cluster0.iuvoi.mongodb.net/Po-Market?retryWrites=true&w=majority";
+      "Lien de la DB";
     await mongoose
       .connect(uri, {
         useNewUrlParser: true,
